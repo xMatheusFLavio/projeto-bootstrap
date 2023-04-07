@@ -1,0 +1,47 @@
+:root {
+    --verde-neon: #DAFF01;
+    --roxo: #9353FF;
+    --cinza: #CCCCCC;
+    --preto: #000000;
+    --branco: #FFFFFF;
+}
+
+.texto-menor {
+    font-size: 13px;
+}
+
+.divs-facilidades {
+    width: 325px;
+}
+
+.div-novidades {
+    width: 325px;
+}
+
+.botao-lilas {
+    background-color: var(--roxo);
+}
+
+.cor-icone {
+    color: var(--verde-neon);
+}
+
+.sessao {
+    background-color: var(--preto);
+    color: var(--branco);
+    margin-top: 2rem;
+    padding-top: 0.1rem;
+}
+
+.rodape {
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+@media(min-width: 768px) {
+
+    .div-novidades {
+        width: 696px;
+    }
+
+}
